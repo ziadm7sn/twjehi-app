@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ألوان الوضعين (اختياري الآن) */
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+}
+.dark {
+  --bg: #121212;
+  --fg: #e5e5e5;
+}
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
